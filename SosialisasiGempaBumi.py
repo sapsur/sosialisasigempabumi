@@ -6,6 +6,8 @@ import leafmap.foliumap as leafmap
 import plotly_express as px
 from streamlit_option_menu import option_menu
 
+KONTOL
+
 df1 = pd.read_csv("gempagempi.csv")
 df = df1.loc[:, ("tanggal", "waktu", "latitude", "longitude", "kedalaman", "magnitudo", "daerah")]
 m = leafmap.Map(location=[ -0.78927, 113.921327], tiles="Cartodb dark_matter", zoom_start=4)
